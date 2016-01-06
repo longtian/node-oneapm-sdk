@@ -15,9 +15,13 @@ This is for development usage only. Please do not use it in production.
 
 Provide the credentials as environment variables
 
-`ONEAPM_USERNAME`
+`ONEAPM_USERNAME` username/email
 
-`OENAPM_PASSWORD`
+`ONEAPM_PASSWORD` password in plain text :see_no_evil: 
+
+## Base Url
+
+`ONEAPM_BASE_URL` default is https://cloud.oneapm.com/
 
 You should protect your username and password.
 
