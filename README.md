@@ -1,4 +1,9 @@
-# node-oneapm-sdk
+# oneapm-sdk
+
+[![](https://img.shields.io/npm/v/oneapm-sdk.svg?style=flat-square)](https://www.npmjs.com/package/oneapm-sdk)
+[![](https://npm.taobao.org/badge/v/oneapm-sdk.svg)](http://npm.taobao.org/package/oneapm-sdk)
+
+[![NPM](https://nodei.co/npm/oneapm-sdk.png)](https://nodei.co/npm/oneapm-sdk/)
 
 > SDK for [oneapm.com](http://oneapm.com/) written in Node.js
 
