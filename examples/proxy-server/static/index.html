@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example of OneAPM SDK</title>
+</head>
+<body>
+<div>
+    <h1>存储在 Cloud Insight 的列表</h1>
+    <ol id="container"></ol>
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+    $.getJSON('/metrics.json', function (res) {
+        $.each(res.result, function (i, item) {
+            $('<li>').text(item.metric).appendTo('#container');
+        })
+    })
+</script>
+</body>
+</html>
