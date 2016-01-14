@@ -10,4 +10,8 @@ if (!process.env.ONEAPM_BASE_URL) {
   process.env.ONEAPM_BASE_URL = 'https://cloud.oneapm.com/';
 }
 
+if (!process.env.ONEAPM_LOGIN_URL) {
+  process.env.ONEAPM_LOGIN_URL = 'https://user.oneapm.com/account/login.do';
+}
+
 exports.middleware = require('./lib/middleware.js');

@@ -19,7 +19,9 @@ Provide the credentials as environment variables
 
 `ONEAPM_PASSWORD` password in plain text :see_no_evil: 
 
-## Base Url
+## Url
+
+`ONEAPM_LOGIN_URL` default is https://user.oneapm.com/account/login.do
 
 `ONEAPM_BASE_URL` default is https://cloud.oneapm.com/
 
