@@ -1,6 +1,6 @@
 {
   "name": "oneapm-sdk",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "SDK for oneapm.com",
   "main": "index.js",
   "scripts": {
