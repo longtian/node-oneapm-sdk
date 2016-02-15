@@ -38,6 +38,11 @@ app.use(oneapmMiddleware);
 app.listen(8080);
 ```
 
+## Todo
+
+[ ] Error handling
+[ ] Auto reconnect after session expires
+
 ## LICENSE
 
 MIT
