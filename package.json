@@ -4,7 +4,7 @@
   "description": "SDK for oneapm.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "npm version patch && npm publish --reg=https://registry.npmjs.com && open https://npm.taobao.org/sync/oneapm-sdk"
   },
   "repository": {
     "type": "git",
