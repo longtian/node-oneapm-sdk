@@ -4,7 +4,7 @@
   "description": "SDK for oneapm.com",
   "main": "index.js",
   "scripts": {
-    "release": "npm version patch && npm publish --reg=https://registry.npmjs.com && open https://npm.taobao.org/sync/oneapm-sdk"
+    "release": "npm version patch && npm publish --reg=https://registry.npmjs.com"
   },
   "repository": {
     "type": "git",
