@@ -40,8 +40,9 @@ app.listen(8080);
 
 ## Todo
 
-[ ] Error handling
-[ ] Auto reconnect after session expires
+[x] Error handling
+
+[_] Auto reconnect after session expires
 
 ## LICENSE
 
